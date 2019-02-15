@@ -1,3 +1,9 @@
+
+README.txt：Programの中身の説明
+server.py：GPSモジュールを用いて現在地情報の取得
+socket.py：地磁気センサー・サーボモータ・振動モジュールを用いて案内する
+micropyGPS.py：server.pyで必要
+
 micropyGPSとserver.pyは同一ディレクトリにおいておく．
 この二つは1つのラズパイで制御し，
 もう一つのラズパイのシステムとsocket通信でデータを送受信する．
