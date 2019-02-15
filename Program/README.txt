@@ -2,7 +2,7 @@ micropyGPSとserver.pyは同一ディレクトリにおいておく．
 この二つは1つのラズパイで制御し，
 もう一つのラズパイのシステムとsocket通信でデータを送受信する．
 
-socket.pyとserver.pyで通信する
+socket.pyとserver.pyで通信する.
 
 socket.pyで現在地の情報および案内対象の距離を計算する
 一定の距離に近づいた時の緯度・経度情報をserver.pyに送信する．
